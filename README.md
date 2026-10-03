@@ -47,20 +47,20 @@ src/
 ## Portfolio submission checklist
 
 - Source repository: [RohanSiripurapu/Algoryx-frontend](https://github.com/RohanSiripurapu/Algoryx-frontend).
-- Claim the temporary Netlify preview below with a free Netlify account to keep it online; use `npm run build` and `dist` for future deployments.
-- Capture desktop and mobile screenshots from the deployed dashboard and add them to the repository (for example, `screenshots/`).
+- GitHub Pages deploys automatically from `main` using `.github/workflows/deploy-pages.yml`.
+- Desktop and mobile screenshots are included in `screenshots/`.
 - Publish a LinkedIn post with the live URL, repository link, screenshots, and a short summary of the React, responsive design, and reusable-component work.
 
-### Live preview
+### Deployment
 
-[Northstar Commerce on Netlify](https://lighthearted-mousse-8aa14e.netlify.app/)
+GitHub Pages is configured to deploy through Actions. The workflow builds with the `/Algoryx-frontend/` base path required by this project repository.
 
-This is an unclaimed, password-protected Netlify Drop preview and expires about one hour after upload. Claim it in Netlify to make it persistent. The preview password is shown on the Netlify Drop confirmation page and is intentionally not stored in this repository.
+Live site: [Northstar Commerce](https://rohansiripurapu.github.io/Algoryx-frontend/)
 
 ### LinkedIn draft
 
-> Week 1 of my Algoryx Frontend Internship: I built Northstar Commerce, a responsive React admin dashboard with reusable components, performance metrics, sales visualization, searchable orders, notifications, and CSV export. I used Vite, React, Lucide, and custom responsive CSS. Excited to keep building throughout the internship.
+>Week 1 of my Algoryx Frontend Internship: I built Northstar Commerce, a responsive React admin dashboard with reusable components, performance metrics, sales visualization, searchable orders, notifications, and CSV export. I used Vite, React, Lucide, and custom responsive CSS. Excited to keep building throughout the internship.
 >
-> Live demo: [Northstar Commerce](https://lighthearted-mousse-8aa14e.netlify.app/) · Source: [Algoryx-frontend](https://github.com/RohanSiripurapu/Algoryx-frontend)
+ > Live demo: [Northstar Commerce](https://rohansiripurapu.github.io/Algoryx-frontend/) · Source: [Algoryx-frontend](https://github.com/RohanSiripurapu/Algoryx-frontend)
 >
-> Replace the placeholders after publishing the repository and live demo.
+ > Screenshots are included in the repository.
